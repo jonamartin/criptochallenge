@@ -9,7 +9,7 @@ docker network create cripto
 
 Compilar contenedor de backend.
 ```
-docker build -t cripto/backend ./backend/
+docker build -t cripto/backend ./Backend/
 ```
 
 Compilar contenedor de base de datos.
