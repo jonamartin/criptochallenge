@@ -5,7 +5,7 @@ var logger = require('morgan');
 const knex = require('knex')({
     client: 'mysql2',
     connection: {
-      host : 'localhost',
+      host : 'cripto_mysql',
       user : 'root',
       password : 'Steplix2020',
       database : 'cripto'

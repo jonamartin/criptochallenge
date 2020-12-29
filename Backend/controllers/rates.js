@@ -16,7 +16,7 @@ class Rates
            'created_at' : new Date().toISOString().slice(0, 19).replace('T', ' ')
        }
        await this.knex('rates').insert(rate);
-       res.send(201);
+       res.sendStatus(201);
     }
 
     async rates_get_last_rates(req, res)
